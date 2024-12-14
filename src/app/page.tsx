@@ -8,7 +8,7 @@ import {
   NavigationMenuTrigger
 } from '@/components/ui/navigation-menu'
 import { josefinSans } from './font'
-import { Button, buttonVariants } from '@/components/ui/button'
+import { buttonVariants } from '@/components/ui/button'
 import Link from 'next/link'
 
 export default function Home() {
