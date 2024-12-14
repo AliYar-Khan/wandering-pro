@@ -5,8 +5,7 @@ import {
   NavigationMenuItem,
   NavigationMenuLink,
   NavigationMenuList,
-  NavigationMenuTrigger,
-  navigationMenuTriggerStyle
+  NavigationMenuTrigger
 } from '@/components/ui/navigation-menu'
 import { josefinSans } from './font'
 import { Button, buttonVariants } from '@/components/ui/button'
