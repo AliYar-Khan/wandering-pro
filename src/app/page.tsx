@@ -13,7 +13,7 @@ import Link from 'next/link'
 
 export default function Home() {
   return (
-    <div className='min-w-max min-h-screen'>
+    <div className='min-w-full min-h-screen'>
       <header className='w-full flex flex-row justify-between px-9 py-8'>
         <Image
           src={'/logo.png'}
@@ -21,7 +21,7 @@ export default function Home() {
           height={52.69}
           alt='wandering-pro'
         />
-        <NavigationMenu>
+        <NavigationMenu className='hidden lg:flex'>
           <NavigationMenuList>
             <NavigationMenuItem>
               <NavigationMenuLink className='cursor-pointer font-cabin font-semibold text-[20px] leading-[39.4px] text-[#150306]'>
@@ -64,23 +64,23 @@ export default function Home() {
         </NavigationMenu>
       </header>
       <main className='flex flex-col'>
-        <section className='w-full flex flex-row justify-between mt-[15px] pl-[50px]'>
-          <div className='min-w-1/2'>
-            <div className='flex flex-row max-w-[648px]'>
+        <section className='w-full flex flex-col lg:flex-row justify-between mt-[15px] px-12 lg:pl-[50px]'>
+          <div className='flex flex-col'>
+            <div className='flex flex-row max-w-[324px] lg:max-w-1/2'>
               <h1
-                className={`${josefinSans.variable} font-bold text-[80px] leading-[96px] text-[#2C2C2C]`}
+                className={`${josefinSans.variable} font-bold text-[40px] leading-[48px] lg:text-[50px] lg:leading-[50px] xl:text-[80px] xl:leading-[96px] text-[#2C2C2C]`}
               >
                 THE WANDERING PRO
               </h1>
             </div>
-            <div className='flex flex-row'>
+            <div className='flex flex-row max-w-[324px] xl:max-w-[648px] lg:max-w-1/2 lg:mt-2'>
               <span
                 className={`${josefinSans.variable} font-bold text-[24px] leading-[28.64px] text-[#31B6C0]`}
               >
                 Mentorship Space For Builders
               </span>
             </div>
-            <div className='flex flex-row max-w-[552px] mt-6'>
+            <div className='flex flex-row max-w-[324px] xl:max-w-[648px] lg:max-w-1/2 mt-6'>
               <span
                 className={`${josefinSans.variable} font-normal text-[24px] leading-[28.64px] text-[#2C2C2C]`}
               >
@@ -94,7 +94,7 @@ export default function Home() {
                 </span>
               </span>
             </div>
-            <div className='flex flex-row mt-6'>
+            <div className='flex flex-row mt-6 max-w-[324px] lg:max-w-1/2'>
               <Link
                 href={''}
                 className={`${buttonVariants({
@@ -105,13 +105,13 @@ export default function Home() {
               </Link>
             </div>
           </div>
-          <div className='min-w-1/2 w-[734px] h-[727px]'>
+          <div className='mt-4 lg:mt-0 xl:w-[724px] xl:h-[727px]'>
             <Image
               src={'/hero-images.png'}
               width={634}
               height={627}
               alt='hero-images'
-              className='shad'
+              className=''
             />
           </div>
         </section>
