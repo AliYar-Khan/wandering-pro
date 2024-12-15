@@ -24,30 +24,30 @@ export default function Home() {
         <NavigationMenu>
           <NavigationMenuList>
             <NavigationMenuItem>
-              <NavigationMenuLink className='font-cabin font-semibold text-[20px] leading-[39.4px] text-[#150306]'>
+              <NavigationMenuLink className='cursor-pointer font-cabin font-semibold text-[20px] leading-[39.4px] text-[#150306]'>
                 JOIN DISCORD
               </NavigationMenuLink>
             </NavigationMenuItem>
             <NavigationMenuItem>
-              <NavigationMenuTrigger className='font-cabin font-semibold text-[20px] leading-[39.4px] text-[#150306]'>
+              <NavigationMenuTrigger className='cursor-pointer font-cabin font-semibold text-[20px] leading-[39.4px] text-[#150306]'>
                 CONTENT
               </NavigationMenuTrigger>
               <NavigationMenuContent></NavigationMenuContent>
             </NavigationMenuItem>
             <NavigationMenuItem>
-              <NavigationMenuTrigger className='font-cabin font-semibold text-[20px] leading-[39.4px] text-[#150306]'>
+              <NavigationMenuTrigger className='cursor-pointer font-cabin font-semibold text-[20px] leading-[39.4px] text-[#150306]'>
                 COMMUNITY
               </NavigationMenuTrigger>
               <NavigationMenuContent></NavigationMenuContent>
             </NavigationMenuItem>
             <NavigationMenuItem>
-              <NavigationMenuTrigger className='font-cabin font-semibold text-[20px] leading-[39.4px] text-[#150306]'>
+              <NavigationMenuTrigger className='cursor-pointer font-cabin font-semibold text-[20px] leading-[39.4px] text-[#150306]'>
                 RESOURCES
               </NavigationMenuTrigger>
               <NavigationMenuContent></NavigationMenuContent>
             </NavigationMenuItem>
             <NavigationMenuItem>
-              <NavigationMenuTrigger className='font-cabin font-semibold text-[20px] leading-[39.4px] text-[#150306]'>
+              <NavigationMenuTrigger className='cursor-pointer font-cabin font-semibold text-[20px] leading-[39.4px] text-[#150306]'>
                 MORE
               </NavigationMenuTrigger>
               <NavigationMenuContent></NavigationMenuContent>
